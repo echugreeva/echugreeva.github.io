@@ -3,6 +3,7 @@ body {
     background-color: black;
     font-weight: normal;
     text-align: center;
+    display: block-inline;
 
     
 }
@@ -25,9 +26,28 @@ p {
 a {
     font-size: 16px;
     color: aquamarine;
+    
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+video {
+    object-fit: contain;
+    display: block;
+    height: 420px;
+    width: auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+footer p {
+    text-align: right;
 }
